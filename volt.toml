@@ -1,0 +1,20 @@
+name = "nushell-lsp"
+version = "0.1.0-rc1"
+author = "timon-schelling"
+display-name = "Nushell LSP"
+description = "Nushell language plugin using nushell's integrated lsp"
+icon = "icon.png"
+respository = "https://github.com/timon-schelling/lapce-plugin-nushell-lsp"
+wasm = "plugin.wasm"
+
+[activation]
+language = ["nushell"]
+workspace-contains = ["**/*.nu"]
+
+[config."nushell-lsp.path"]
+description = "Nushell language server path"
+default = "/usr/bin/env"
+
+[config."nushell-lsp.args"]
+description = "Nushell language server args"
+default = ["nu", "--lsp"]
