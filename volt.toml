@@ -17,4 +17,4 @@ default = "/usr/bin/env"
 
 [config."nushell-lsp.args"]
 description = "Nushell language server args"
-default = ["nu", "--lsp"]
+default = ["nu", "--lsp", "--no-config-file"]
