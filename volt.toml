@@ -1,5 +1,5 @@
 name = "nushell-lsp"
-version = "0.1.0-rc1"
+version = "0.1.0-rc2"
 author = "timon-schelling"
 display-name = "Nushell LSP"
 description = "Nushell language plugin using nushell's integrated lsp"
