@@ -4,7 +4,7 @@ author = "timon-schelling"
 display-name = "Nushell LSP"
 description = "Nushell language plugin using nushell's integrated lsp"
 icon = "icon.png"
-respository = "https://github.com/timon-schelling/lapce-plugin-nushell-lsp"
+repository = "https://github.com/timon-schelling/lapce-plugin-nushell-lsp"
 wasm = "plugin.wasm"
 
 [activation]
